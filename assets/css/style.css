@@ -1,0 +1,297 @@
+* {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+body {
+  font-family: 'Dosis', sans-serif !important;
+}
+p,h1,h2,h3,h4,h5,h6,span,div {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+header {
+	background-color: #223047;
+	padding: 5px 0px 5px 0px;
+}
+main {
+	background-color: #223047;
+}
+img.logo {
+	width: auto;
+	height: 50px;
+}
+div.buttonandspan , div.button {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+span.headerslidenav {
+	font-size:30px;
+	cursor:pointer;
+	color: white;
+}
+.sidenavR {
+	background-color:#111;
+	height:100%;
+	overflow-x:hidden;
+	padding-top:60px;
+	position:fixed;
+	right:0;
+	top:0;
+	transition:.5s;
+	width:0;
+	z-index:1;
+}
+.sidenavR a {
+	color:#818181;
+	display:block;
+	font-size:25px;
+	padding:8px 8px 8px 32px;
+	text-decoration:none;
+	transition:.3s;
+}
+.sidenavR a:hover,.offcanvas a:focus {
+	color:#f1f1f1;
+}
+.sidenavR .closebtn {
+	font-size:36px;
+	margin-left:50px;
+	position:absolute;
+	right:25px;
+	top:0;
+}
+@media screen and (max-height: 450px) {
+	.sidenavR {
+		padding-top:15px;
+	}
+	.sidenavR a {
+		font-size:18px;
+	}
+}
+img.phone {
+	width: auto;
+	height: 95%;
+	position: relative;
+    top: 90px;
+}
+div.maincontent {
+	padding-bottom: 60px;
+	color: white;
+}
+div.mainsubcontent {
+	color: #78859e;
+}
+div.mainbuttons {
+	padding-top: 60px;
+}
+div.main {
+	padding-left: 120px;
+	padding-right: 120px;
+}
+div.maincontentupper {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+hr {
+  color: #4e596c !important;
+  height: 1px !important;
+}
+section {
+	text-align: center;
+}
+div.center {
+	margin-right: auto;
+	margin-left: auto;
+}
+i.bi-dash-lg {
+	font-size: 5rem;
+	color: #00fff0;
+}
+h6 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div.cards {
+	padding-left: 100px !important;
+	padding-right: 100px !important;
+}
+div.services {
+	padding-top: 100px;
+	padding-bottom: 100px ;
+}
+.flex-container{
+	min-height: 500px;
+	display: flex;
+}
+.doubleleft{
+	background: #323a4d;
+	flex: 1;
+}
+.doubleright{
+	background: #b4bac0;
+	flex: 1;
+}
+p.side {
+	padding-top: 30px;
+	font-size: 14px;
+}
+div.rightspace {
+	padding-left: 100px;
+	text-align: left;
+}
+footer {
+	background-color: #223047;
+	color: #00fff0;
+	padding: 25px 0px 10px 10px;
+}
+div.copyright>p {
+	padding-left: 20px;
+}
+h6 {
+	font-weight: bold !important;
+}
+div.socialicon {
+	padding-right: 50px;
+}
+i.fa-brands {
+	color: white !important;
+	font-size: 20px;
+	padding-left: 20px;
+}
+div.quote {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	color: #00fff0;
+	padding-bottom: 100px;
+}
+section.quote {
+	background-color: #223047;
+}
+section.video {
+	background-color: #223047;
+}
+div.video {
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+p.watchvideo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+img.app {
+	max-width: auto;
+	max-height: 80px;
+	object-fit: contain;
+}
+img.appstore {
+	height: 62px;
+}
+div.middle {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+div.videorow {
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+section.downloadpart {
+	background-color: #ffffff;
+    background-image: url("/appo/assets/images/map.png") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+div.downloadpart {
+	margin-left: auto;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	margin-right: auto;
+}
+div.download {
+	margin-top: 50px;
+}
+div.appaddimages {
+	position: relative; 
+	left: 0; 
+	top: 0;
+}
+img.leftphone {
+	max-width: 40%;
+	max-height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+img.rightphone
+{
+	max-width: 32%;
+    max-height: auto;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+}
+div.appadd {
+	background-color: #f5f6fa;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+h3.appadd {
+	padding-bottom: 30px;
+	text-align: left;
+}
+p.appadd {
+	text-align: left;
+	padding-bottom: 10px;
+}
+input[type="text"] {
+	width: 500px;
+	font-size: 15px;
+	padding: 8px;
+	border: none;
+	color: black;
+	background-color: #f5f6fa;
+}
+div.subscribe {
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+div.form {
+	padding-bottom: 100px;
+}
+div.sub {
+	padding-bottom: 30px;
+}
+div.gettoday {
+	position: relative;
+	top: -25px;
+}
+button.gettoday {
+	background-color: #00fff0 !important;
+	border: none;
+	width: 300px;
+	padding: 15px;
+}
+button.countmein {
+	background-color: #00fff0 !important;
+	border: none;
+	width: 150px;
+	font-size: 15px;
+	padding: 8px;
+}
+ul {
+	list-style: none;
+	color: #9eaac2;
+}
+h5>ul>li {
+	list-style: none;
+}
+div.bottommenu {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 50px 0px 50px;
+}
+h5 {
+	padding-left: 25px;
+	padding-bottom: 10px;
+}

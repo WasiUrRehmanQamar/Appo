@@ -1,0 +1,86 @@
+div.copyright {
+    text-align: center !important; 
+}
+footer {
+    padding: 10px 0px 10px 0px;
+}
+div.socialicon {
+    padding: 10px 0px 20px 0px;
+}
+i.fa-facebook-f {
+    padding-left: 0px;
+}
+div.copyright>p {
+    padding: 20px 0px 10px 0px;
+}
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 20px;
+}
+button.countmein {
+    width: 100%;
+}
+div.bottommenu {
+    padding: 20px 0px 0px 0px;
+}
+div.subscribe {
+    padding-top: 50px;
+}
+h3.appadd {
+    padding-top: 60px;
+    text-align: center;
+}
+div.appaddimages {
+    left: -10px;
+}
+img.app {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+p.appadd {
+    padding-bottom: 30px;
+}
+div.doubleleft {
+    display: none;
+}
+div.rightspace {
+    padding: 0px 20px 0px 20px;
+}
+div.cards {
+    padding: 0px 0px 0px 0px !important;
+}
+div.services {
+    padding-bottom: 20px;
+}
+div.main {
+    padding: 0px 20px 0px 20px;
+}
+div.maincontentupper {
+    padding-top: 30px;
+}
+img.phone {
+    display: none;
+}
+button.btn-outline-light {
+    margin-top: 30px;
+}
+button.navbar-toggler {
+    display: none;
+}
+img.logo {
+    margin: 20px 0px 20px 0px;
+    height: auto;
+    width: 50%;
+}
+div.mobile {
+    flex: 1;
+}
+span.mobile {
+    float: right;
+}
+div.buttonandspan {
+    padding-left: 20px;
+    padding-right: 20px;
+}
